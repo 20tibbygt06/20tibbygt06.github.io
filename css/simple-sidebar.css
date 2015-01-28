@@ -120,6 +120,7 @@
   background-image: none;
   border: none;
   border-radius: 4px;
+  z-index:10;
 }
 .nav-toggle:focus {
   outline: 0;
