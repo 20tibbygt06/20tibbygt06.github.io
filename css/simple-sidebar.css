@@ -111,7 +111,7 @@
   }
 }
 .nav-toggle {
-  position: relative;
+  position: fixed;
   float: left;
   padding: 9px 10px;
   margin-top: 8px;
