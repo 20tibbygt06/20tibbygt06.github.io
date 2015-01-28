@@ -113,10 +113,9 @@
 .nav-toggle {
   position: fixed;
   float: left;
-  padding: 20px 5px;
+  padding: 20px 0px;
   margin-top: 8px;
   margin-right: 10px;
-  margin-bottom: 8px;
   background-color: transparent;
   background-image: none;
   border: none;
