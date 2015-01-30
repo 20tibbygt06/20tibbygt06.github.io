@@ -1,86 +1,107 @@
 ---
 layout: default
 ---
-<h1 class="text-center">Simple Sidebar</h1>
-<p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-<p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+<div class="box text-center">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3>About Me</h3>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p>I love the internet! A "thing" that allows us to connect to millions of individuals at any given moment, wow! It's quite the extoardinary tool, so as a web developer I take great pride in delivering, not only an amazing website, but an extoardinary
+          user experience. A website is a tool of expression in the 21st century. I will make sure to deliver all that you are looking to express with your website.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-<div id="skills">
-  <div class="container">
+<div class="box">
+  <div class="container-fluid">
     <div class="row text-center">
-      <h3>OUR SKILLS</h3>
-      <div class="col-lg-3 mt">
+      <div class="col-lg-12 text-center">
+        <h3>Skills</h3>
+        <hr class="star-primary">
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 mt">
         <canvas id="javascript" height="130" width="130"></canvas>
         <p>Javascript</p>
         <br>
         <script>
-          var doughnutData = [
-              {
-                value: 70,
-                color:"#74cfae"
-              },
-              {
-                value : 30,
-                color : "#3c3c3c"
-              }
-            ];
-            var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+          var doughnutData = [{
+            value: 70,
+            color: "#74cfae"
+          }, {
+            value: 30,
+            color: "#3c3c3c"
+          }];
+          var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
         </script>
       </div>
-      <div class="col-lg-3 mt">
+      <div class="col-lg-3 col-md-6 col-sm-6 mt">
         <canvas id="bootstrap" height="130" width="130"></canvas>
         <p>Bootstrap</p>
         <br>
         <script>
-          var doughnutData = [
-              {
-                value: 90,
-                color:"#74cfae"
-              },
-              {
-                value : 10,
-                color : "#3c3c3c"
-              }
-            ];
-            var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+          var doughnutData = [{
+            value: 90,
+            color: "#74cfae"
+          }, {
+            value: 10,
+            color: "#3c3c3c"
+          }];
+          var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
         </script>
       </div>
-      <div class="col-lg-3 mt">
+      <div class="col-lg-3 col-md-6 col-sm-6 mt">
         <canvas id="wordpress" height="130" width="130"></canvas>
         <p>Wordpress</p>
         <br>
         <script>
-          var doughnutData = [
-              {
-                value: 65,
-                color:"#74cfae"
-              },
-              {
-                value : 35,
-                color : "#3c3c3c"
-              }
-            ];
-            var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+          var doughnutData = [{
+            value: 65,
+            color: "#74cfae"
+          }, {
+            value: 35,
+            color: "#3c3c3c"
+          }];
+          var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
         </script>
       </div>
-      <div class="col-lg-3 mt">
+      <div class="col-lg-3 col-md-6 col-sm-6 mt">
         <canvas id="photoshop" height="130" width="130"></canvas>
         <p>Photoshop</p>
         <br>
         <script>
-          var doughnutData = [
-              {
-                value: 50,
-                color:"#74cfae"
-              },
-              {
-                value : 50,
-                color : "#3c3c3c"
-              }
-            ];
-            var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
+          var doughnutData = [{
+            value: 50,
+            color: "#74cfae"
+          }, {
+            value: 50,
+            color: "#3c3c3c"
+          }];
+          var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
         </script>
       </div>
-    </div><!-- /row -->
-  </div><!-- /container -->
-</div><!-- /skills -->
+    </div>
+    <!-- /row -->
+  </div>
+  <!-- /container -->
+</div>
+
+<div class="box text-center">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3>Philosophy</h3>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+      </div>
+    </div>
+  </div>
+</div>
