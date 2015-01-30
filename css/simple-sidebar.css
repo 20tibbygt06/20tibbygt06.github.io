@@ -23,7 +23,7 @@
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
-  background: #070339;
+  background: #74cfae;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -35,11 +35,14 @@
 #page-content-wrapper {
   width: 100%;
   position: absolute;
-  padding: 15px;
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-left: 35px;
 }
 #wrapper.toggled #page-content-wrapper {
   position: absolute;
-  margin-right: -250px;
+  padding-right: 25px;
+  padding-left: 35px;
 }
 /* Sidebar Styles */
 
@@ -63,8 +66,8 @@
 }
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #ddd;
-  background: #111;
+  color: #fff;
+  background: #000;
   font-size: 20px;
 }
 .sidebar-nav li a:active,
@@ -74,19 +77,19 @@
 }
 .sidebar-nav > .sidebar-brand {
   font-size: 36px;
-  margin: 20px 0px 10px;
+  margin: 0px 0px 30px;
 }
 .sidebar-nav > .sidebar-brand a {
   color: #fff;
   font-family: "Indie Flower", serif;
   font-size: 36px;
-  margin: 20px 0px 10px;
+  margin: 0px 0px 30px;
 }
 .sidebar-nav > .sidebar-brand a:hover {
-  color: #ddd;
+  color: #fff;
   background: none;
   font-size: 36px;
-  margin: 20px 0px 10px;
+  margin: 0px 0px 30px;
 }
 @media(min-width:768px) {
   #wrapper {
@@ -102,12 +105,16 @@
     width: 0;
   }
   #page-content-wrapper {
-    padding: 20px;
-    position: relative;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 35px;
+    position: inherit;
   }
   #wrapper.toggled #page-content-wrapper {
-    position: relative;
+    position: inherit;
     margin-right: 0;
+    padding-right: 25px;
+    padding-left: 35px;
   }
 }
 .nav-toggle {
@@ -154,8 +161,71 @@
   font-size: 20px;
 }
 #mypic{
-  margin: 0px 0px 60px;
+  margin: 10px 0px 0px;
 }
-.margin-left{
-  margin-left: 15px;
+/* Skills */
+.skills {
+  background-color: #4e4e4e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+
+.skills h3 {
+  color: white;
+  font-family: "Dosis", serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.skills p {
+  color: white;
+  font-weight: bold;
+  font-family: "Dosis", serif;
+  font-size: 20px;
+}
+.mt {
+  margin-top: 40px;
+}
+
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: #4e4e4e;
+}
+
+hr.star-light:after {
+    color: #4e4e4e;
+    background-color: #fff;
+}
+
+hr.star-primary {
+    border-color: #fff;
+}
+
+hr.star-primary:after {
+    color: #fff;
+    background-color: #4e4e4e;
+}
+.navbar{
+  background-color:#fff;
 }

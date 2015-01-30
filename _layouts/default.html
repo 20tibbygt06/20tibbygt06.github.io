@@ -27,7 +27,19 @@
     </div>
   </div>
 
-  {% include js.html %}
+  <!-- Jquery -->
+  <script src="{{"js/jquery.js" | prepend: site.baseurl }}"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="{{"js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+  });
+  </script>
 
 </body>
 </html>
