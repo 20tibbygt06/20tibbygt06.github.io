@@ -36,12 +36,12 @@
   width: 100%;
   position: absolute;
   padding-top: 25px;
-  padding-right: 25px;
+  padding-right: 5px;
   padding-left: 35px;
 }
 #wrapper.toggled #page-content-wrapper {
   position: absolute;
-  padding-right: 25px;
+  padding-right: 5px;
   padding-left: 35px;
 }
 /* Sidebar Styles */
@@ -111,14 +111,14 @@
   }
   #page-content-wrapper {
     padding-top: 25px;
-    padding-right: 25px;
+    padding-right: 5px;
     padding-left: 35px;
     position: inherit;
   }
   #wrapper.toggled #page-content-wrapper {
     position: inherit;
     margin-right: 0;
-    padding-right: 25px;
+    padding-right: 5px;
     padding-left: 35px;
   }
 }
