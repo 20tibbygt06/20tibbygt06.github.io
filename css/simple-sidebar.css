@@ -65,19 +65,20 @@ html{
   display: block;
   text-decoration: none;
   color: #fff;
-  font-family: "Open Sans", serif;
+  font-family: "Roboto Slab", serif;
   font-size: 20px;
 }
 .sidebar-nav li a:hover {
   text-decoration: none;
   color: #fff;
-  background: #000;
+  background: #2F2F2F;
   font-size: 20px;
 }
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
   text-decoration: none;
   font-size: 20px;
+  background: #2F2F2F;
 }
 .sidebar-nav > .sidebar-brand {
   font-size: 36px;
@@ -165,7 +166,7 @@ html{
 }
 .whitefont {
   color: #fff;
-  font-family: "Open Sans", serif;
+  font-family: "Roboto Slab", serif;
   font-size: 20px;
 }
 #mypic{
@@ -180,15 +181,14 @@ html{
 
 .box h3 {
   color: white;
-  font-family: "Lato", serif;
+  font-family: "Roboto Slab", serif;
   text-transform: uppercase;
-  font-weight: bold;
 }
 
 .box p {
   color: white;
-  font-family: "Oxygen", serif;
-  font-size: 20px;
+  font-family: "Lato", serif;
+  font-size: 16px;
 }
 .mt {
   margin-top: 40px;
