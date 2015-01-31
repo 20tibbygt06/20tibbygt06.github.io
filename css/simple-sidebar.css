@@ -65,7 +65,7 @@ html{
   display: block;
   text-decoration: none;
   color: #fff;
-  font-family: "Dosis", serif;
+  font-family: "Open Sans", serif;
   font-size: 20px;
 }
 .sidebar-nav li a:hover {
@@ -165,7 +165,7 @@ html{
 }
 .whitefont {
   color: #fff;
-  font-family: "Dosis", serif;
+  font-family: "Open Sans", serif;
   font-size: 20px;
 }
 #mypic{
@@ -173,22 +173,21 @@ html{
 }
 /* box */
 .box {
-  border: 3px solid #4E4E4E;
+  border: 5px solid #4E4E4E;
   margin-bottom: 20px;
   margin-top: 10px
 }
 
 .box h3 {
   color: white;
-  font-family: "Dosis", serif;
+  font-family: "Lato", serif;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 .box p {
   color: white;
-  font-weight: bold;
-  font-family: "Dosis", serif;
+  font-family: "Oxygen", serif;
   font-size: 20px;
 }
 .mt {
