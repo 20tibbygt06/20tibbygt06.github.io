@@ -3,7 +3,7 @@
   <div id="sidebar-wrapper">
     <ul class="sidebar-nav text-center">
       <div>
-        <img src="img/photo.jpg" alt="Responsive image" id="mypic" class="img-circle">
+        <img src="{{ "img/photo.jpg" | prepend: site.baseurl }}" alt="Responsive image" id="mypic" class="img-circle">
       </div>
       <div class="sidebar-brand">
         <a href="{{site.baseurl}}/">{{ site.title }}</a>
