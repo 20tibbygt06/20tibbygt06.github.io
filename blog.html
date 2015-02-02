@@ -9,7 +9,6 @@ title: Blog
       <h3>Blog</h3>
       <hr class="star-primary">
     </div>
-    <div class="container-fluid">
       {% for post in site.posts %}
       <div class="row">
         <div class="boxblog">
@@ -24,7 +23,6 @@ title: Blog
         </div>
       </div>
       {% endfor %}
-    </div>
     <div class="row">
       <p>subscribe <a href="{{ " feed.xml " | prepend: site.baseurl }}">via RSS</a>
       </p>
