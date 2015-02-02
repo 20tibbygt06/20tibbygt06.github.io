@@ -9,20 +9,20 @@ title: Blog
       <h3>Blog</h3>
       <hr class="star-primary">
     </div>
-      {% for post in site.posts %}
-      <div class="row">
-        <div class="boxblog">
-          <div>
-            <h2>
-              {{ post.title }}
-            </h2>
-            <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-            <hr class="star-primary"> {{ post.excerpt }}
-            <a class="bloglink" href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-lg">Read More</a>
-          </div>
+    {% for post in site.posts %}
+    <div class="row">
+      <div class="boxblog">
+        <div>
+          <h2>
+            {{ post.title }}
+          </h2>
+          <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+          <hr class="star-primary"> {{ post.excerpt }}
+          <a class="bloglink" href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-lg">Read More</a>
         </div>
       </div>
-      {% endfor %}
+    </div>
+    {% endfor %}
     <div class="row">
       <p>subscribe <a href="{{ " feed.xml " | prepend: site.baseurl }}">via RSS</a>
       </p>
