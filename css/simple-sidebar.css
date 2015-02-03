@@ -152,10 +152,10 @@ html {
   padding: 0px 5px;
 }
 .iconformatting:hover, .iconformatting:active {
-  color: #FB8946;
+  color: #2F2F2F;
 }
 .iconformatting:link, .iconformatting:visited {
-  color: #FB8946;
+  color: #2F2F2F;
 }
 .whitefont {
   color: #fff;
