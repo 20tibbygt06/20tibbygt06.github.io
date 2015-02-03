@@ -187,21 +187,12 @@ html {
 hr.star-light, hr.star-primary {
   margin: 25px auto 30px;
   padding: 0;
-  max-width: 200px;
-  border: 0;
-  border-top: solid 5px;
-  text-align: center;
-}
-@media (min-width:768px) {
-hr.star-light, hr.star-primary {
-  margin: 25px auto 30px;
-  padding: 0;
   max-width: 100%;
   border: 0;
   border-top: solid 5px;
   text-align: center;
 }
-}
+
 hr.star-light:after, hr.star-primary:after {
   content: "\f005";
   display: inline-block;
@@ -347,14 +338,22 @@ hr.star-primary:after {
 }
 .boxblog {
   background-color: #4e4e4e;
-  padding: 5px 5px 20px;
+  padding: 5px 10px 20px;
   margin-bottom: 10px;
 }
 @media (min-width:768px) {
 .boxblog {
   background-color: #4e4e4e;
-  padding: 20px 20px 20px 20px;
+  padding: 5px 20px 20px 20px;
   margin-bottom: 10px;
+}
+.boxblog hr.star-light, .boxblog hr.star-primary {
+  margin: 25px auto 30px;
+  padding: 0;
+  max-width: 500px;
+  border: 0;
+  border-top: solid 5px;
+  text-align: center;
 }
 }
 .boxblog h3 {
@@ -365,6 +364,14 @@ hr.star-primary:after {
   color: #fff;
   font-family: "Lato", serif;
   font-size: 16px;
+}
+.boxblog hr.star-light, .boxblog hr.star-primary {
+  margin: 25px auto 30px;
+  padding: 0;
+  max-width: 250px;
+  border: 0;
+  border-top: solid 5px;
+  text-align: center;
 }
 .boxblog hr.star-light {
   border-color: #4E4E4E;
