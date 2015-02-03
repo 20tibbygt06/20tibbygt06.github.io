@@ -12,6 +12,7 @@ title: Blog
           <hr class="star-primary">
         </div>
       </div>
+      
       <div class="row">
         <div class="col-xs-12 col-md-9">
           {% for post in paginator.posts %}
@@ -23,38 +24,27 @@ title: Blog
               <br>
               <div class="text-center">
               <a class="bloglink" href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-lg">Read More</a>
-            </div>
+              </div>
             </div>
           {% endfor %}
-        </div>
-      <div class="col-xs-12 col-md-3">
-        <div class="boxblog">
-          <h3 class="text-center">News</h3>
-        </div>
-      </div>
-    </div>
-      <div class="row text-center">
-        <div class="col-xs-12">
-          <p>subscribe <a href="{{ " feed.xml " | prepend: site.baseurl }}">via RSS</a>
-          </p>
-        </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-xs-12">
-          <div class="pagination">
-            {% if paginator.previous_page %}
-              <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-            {% else %}
-              <span class="previous">Previous</span>
-            {% endif %}
-            <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-            {% if paginator.next_page %}
-              <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-            {% else %}
-              <span class="next ">Next</span>
-            {% endif %}
+          <div class="page text-center">
+              {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+              {% else %}
+                <span class="previous">Previous</span>
+              {% endif %}
+              <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+              {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+              {% else %}
+                <span class="next ">Next</span>
+              {% endif %}
           </div>
         </div>
+        <div class="col-xs-12 col-md-3">
+          <div class="boxblog">
+            <h3 class="text-center">News</h3>
+          </div>
       </div>
     </div>
   </div>

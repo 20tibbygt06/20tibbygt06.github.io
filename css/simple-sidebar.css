@@ -343,7 +343,7 @@ hr.star-primary:after {
 @media (min-width: 768px) {
   .boxblog {
     background-color: #4e4e4e;
-    padding: 5px 20px 20px 20px;
+    padding: 5px 10px 20px 10px;
     margin-bottom: 10px;
   }
 
@@ -405,26 +405,58 @@ hr.star-primary:after {
   text-decoration: none;
   border-radius: 10px;
 }
-.desc {
-  padding: 30px 0px;
+.boxresume {
+  background-color: #4e4e4e;
+  padding: 5px 10px 20px;
+  margin-bottom: 10px;
 }
-.desc h5 {
-  color: #aaa;
-  font-family: "Roboto Slab", serif;
+@media (min-width: 768px) {
+  .boxresume {
+    background-color: #4e4e4e;
+    padding: 5px 20px 20px 20px;
+    margin-bottom: 10px;
+  }
+
 }
-.desc p {
+.boxresume h5 {
   color: #fff;
   font-family: "Roboto Slab", serif;
 }
-.desc t {
+.boxresume p {
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+}
+.boxresume t {
   color: #FB8946;
   font-weight: 700;
 }
-.desc imp {
+.boxresume imp {
   padding: 6px;
-  color: 3868A5;
+  color: #fff;
   background: #FB8946;
 }
-.desc more {
+.boxresume more {
   color: #aaa;
+}
+.page{
+  font-family: "Lato", serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.previous{
+  color: #4e4e4e;
+}
+.page_number{
+  color: #fff;
+}
+.next{
+  color: #4e4e4e;
+}
+.page a{
+  color: #FB8946;
+  text-decoration: none;
+}
+.page a:hover{
+  color: #3868A5;
+  text-decoration: none;
 }
