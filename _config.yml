@@ -16,3 +16,5 @@ google_plus_username:
 # Build settings
 markdown: kramdown
 highlighter: rogue
+paginate: 5
+paginate_path: "blog/page:num/"
