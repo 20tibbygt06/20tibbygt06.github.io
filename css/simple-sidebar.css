@@ -96,7 +96,7 @@ html {
   margin: 0px 0px 30px;
   text-decoration: none;
 }
-@media (min-width:768px) {
+@media (min-width: 768px) {
   #wrapper {
     padding-left: 250px;
     background-color: #2F2F2F;
@@ -152,10 +152,10 @@ html {
   padding: 0px 5px;
 }
 .iconformatting:hover, .iconformatting:active {
-  color: #2F2F2F;
+  color: #FB8946;
 }
 .iconformatting:link, .iconformatting:visited {
-  color: #2F2F2F;
+  color: #FB8946;
 }
 .whitefont {
   color: #fff;
@@ -192,7 +192,6 @@ hr.star-light, hr.star-primary {
   border-top: solid 5px;
   text-align: center;
 }
-
 hr.star-light:after, hr.star-primary:after {
   content: "\f005";
   display: inline-block;
@@ -341,20 +340,13 @@ hr.star-primary:after {
   padding: 5px 10px 20px;
   margin-bottom: 10px;
 }
-@media (min-width:768px) {
-.boxblog {
-  background-color: #4e4e4e;
-  padding: 5px 20px 20px 20px;
-  margin-bottom: 10px;
-}
-.boxblog hr.star-light, .boxblog hr.star-primary {
-  margin: 25px auto 30px;
-  padding: 0;
-  max-width: 500px;
-  border: 0;
-  border-top: solid 5px;
-  text-align: center;
-}
+@media (min-width: 768px) {
+  .boxblog {
+    background-color: #4e4e4e;
+    padding: 5px 20px 20px 20px;
+    margin-bottom: 10px;
+  }
+
 }
 .boxblog h3 {
   color: #fff;
@@ -387,7 +379,7 @@ hr.star-primary:after {
   color: #2f2f2f;
   background-color: #4E4E4E;
 }
-.bloglink{
+.bloglink {
   border-radius: 5px;
   color: #fff;
 }
@@ -413,7 +405,6 @@ hr.star-primary:after {
   text-decoration: none;
   border-radius: 10px;
 }
-
 .desc {
   padding: 30px 0px;
 }
@@ -421,23 +412,19 @@ hr.star-primary:after {
   color: #aaa;
   font-family: "Roboto Slab", serif;
 }
-
 .desc p {
   color: #fff;
   font-family: "Roboto Slab", serif;
 }
-
 .desc t {
   color: #FB8946;
   font-weight: 700;
 }
-
 .desc imp {
   padding: 6px;
   color: 3868A5;
   background: #FB8946;
 }
-
 .desc more {
   color: #aaa;
 }

@@ -21,7 +21,9 @@ title: Blog
               <hr class="star-primary text-center">
               {{ post.excerpt }}
               <br>
+              <div class="text-center">
               <a class="bloglink" href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-lg">Read More</a>
+            </div>
             </div>
           {% endfor %}
         </div>
