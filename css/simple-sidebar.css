@@ -58,6 +58,7 @@ html {
 }
 .sidebar-nav li {
   line-height: 30px;
+  margin-left: 85px;
 }
 .sidebar-nav li a:link {
   display: block;
@@ -167,7 +168,6 @@ html {
 /* box */
 
 .box {
-  border: 5px solid #4E4E4E;
   margin-bottom: 20px;
   margin-top: 10px
 }
@@ -187,7 +187,7 @@ html {
 hr.star-light, hr.star-primary {
   margin: 25px auto 30px;
   padding: 0;
-  max-width: 250px;
+  max-width: 100%;
   border: 0;
   border-top: solid 5px;
   text-align: center;
@@ -388,4 +388,32 @@ hr.star-primary:after {
   outline: none;
   text-decoration: none;
   border-radius: 10px;
+}
+
+.desc {
+  padding: 30px 0px;
+}
+.desc h5 {
+  color: #aaa;
+  font-family: "Roboto Slab", serif;
+}
+
+.desc p {
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+}
+
+.desc t {
+  color: #FB8946;
+  font-weight: 700;
+}
+
+.desc imp {
+  padding: 6px;
+  color: 3868A5;
+  background: #FB8946;
+}
+
+.desc more {
+  color: #aaa;
 }

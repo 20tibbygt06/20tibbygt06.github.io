@@ -2,28 +2,44 @@
 layout: default
 title: Blog
 ---
+<div class="wow fadeInUp">
 <div class="box text-center">
   <div class="container-fluid">
     <div class="row">
-      <h3>Blog</h3>
-      <hr class="star-primary">
+      <div class="col-xs-12">
+        <h3>Blog</h3>
+        <hr class="star-primary">
+      </div>
     </div>
+    <div class="col-md-8">
     {% for post in site.posts %}
     <div class="boxblog">
       <div class="row">
-        <div>
           <h3>{{ post.title }}</h3>
           <p>{{ post.date | date: "%b %-d, %Y" }}</p>
           <hr class="star-primary">
+      </div>
+      <div class="row">
           {{ post.excerpt }}
           <a class="bloglink" href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-lg">Read More</a>
-        </div>
       </div>
     </div>
     {% endfor %}
+  </div>
+  <div class="col-md-3 offset-md-1">
+    <div class="boxblog">
     <div class="row">
+      <h5>News</h5>
+
+    </div>
+  </div>
+  </div>
+    <div class="row">
+      <div class="col-xs-12">
       <p>subscribe <a href="{{ " feed.xml " | prepend: site.baseurl }}">via RSS</a>
       </p>
     </div>
+    </div>
   </div>
+</div>
 </div>

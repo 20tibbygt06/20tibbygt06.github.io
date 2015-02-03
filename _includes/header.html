@@ -1,19 +1,19 @@
 <header>
   <!-- Sidebar -->
   <div id="sidebar-wrapper">
-    <ul class="sidebar-nav text-center">
-      <div>
+    <ul class="sidebar-nav">
+      <div class="text-center">
         <img src="{{ "/img/photo.jpg" | prepend: site.baseurl }}" alt="Responsive image" id="mypic" class="img-circle">
       </div>
-      <div class="sidebar-brand">
+      <div class="sidebar-brand text-center">
         <a href="{{ site.baseurl }}/">{{ site.title }}</a>
       </div>
-      <li>
+      <li class="links">
         {% for page in site.pages %} {% if page.title %}
         <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> {% endif %} {% endfor %}
       </li>
       <br>
-      <div>
+      <div class="text-center">
         <p>
           {% if site.twitter_username %}
           <a class="iconformatting" target="_blank" href="https://www.twitter.com/{{ site.twitter_username }}"><i id="twittericon" class="fa fa-twitter-square fa-3x"></i></a> {% endif%} {% if site.facebook_username %}
@@ -23,7 +23,7 @@
           <a class="iconformatting" target="_blank" href="https://www.gooleplus.com/{{ site.google_plus_username}}"><i class="fa fa-google-plus-square fa-3x"></i></a> {% endif %}
         </p>
       </div>
-      <div>
+      <div class="text-center">
         <p class="whitefont">&copy; Luiseaguilar 2015</p>
       </div>
     </ul>
