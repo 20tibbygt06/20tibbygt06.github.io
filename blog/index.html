@@ -12,20 +12,20 @@ title: Blog
           <hr class="star-primary">
         </div>
       </div>
-      
+
       <div class="row">
         <div class="col-xs-12 col-md-9">
           {% for post in paginator.posts %}
             <div class="boxblog">
               <h3 class="text-center">{{ post.title }}</h3>
-              <p class="text-center">{{ post.date | date: "%b %-d, %Y" }}</p>
-              <hr class="star-primary text-center">
-              {{ post.excerpt }}
+              <div class="dateblog text-center">{{ post.date | date: "%b %-d, %Y" }}</div>
               <br>
+              {{ post.excerpt }}
               <div class="text-center">
               <a class="bloglink" href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-lg">Read More</a>
               </div>
             </div>
+            <hr class="line">
           {% endfor %}
           <div class="page text-center">
               {% if paginator.previous_page %}

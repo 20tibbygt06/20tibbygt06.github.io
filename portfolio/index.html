@@ -5,153 +5,92 @@ title: Portfolio
 <div class="wow fadeInUp">
   <div class="box">
     <div class="container-fluid">
+
       <div class="row text-center">
         <div class="col-xs-12">
           <h3>Portfolio</h3>
           <hr class="star-primary">
         </div>
       </div>
-      <div class="container-fluid">
-      <div class="row row-edit">
 
-        <!-- PORTFOLIO IMAGE 1 -->
-        <div class="col-md-4 col-sm-6">
-          <div class="grid mask">
-            <figure>
-              <img class="img-responsive" src="{{ "/img/portfolio/uiowabetas.jpg" | prepend: site.baseurl }}" alt="">
-              <figcaption>
-                <h5>UIOWABETAS</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-              </figcaption>
-              <!-- /figcaption -->
-            </figure>
-            <!-- /figure -->
-          </div>
-          <!-- /grid-mask -->
-        </div>
-        <!-- /col -->
+      <div class="row">
 
-        <!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
-                a modal for each of your projects. -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">UiowaBetas.com</h4>
-              </div>
-              <div class="modal-body">
-                <p>
-                  <img class="img-responsive img-edit" src="{{ "/img/portfolio/uiowabetas.jpg" | prepend: site.baseurl }}" alt="uiowabetas.com">
-                </p>
-                <div class="modalp">This project was crafted for my fraternity at the University of Iowa.
-                  <ul>
-                    <li>Site utilizes Bootstrap</li>
-                    <li>Responsive Design</li>
-                    <li>CloudFlare CDN for faster load times</li>
-                    <li>Pictures utilize Couldinary CDN for faster load times of site</li>
-                  </ul> Tell about the challenges faced and what you and your team did to solve it.</div>
-                <br>
-                <p><b><a href="http://uiowabetas.com">Visit Site</a></b>
-                </p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <div class="col-lg-4 col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-heading text-center" role="tab" id="headingOne">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        UiowaBetas
+                        <br>
+                        <br>
+                        <img class="img-responsive" src="{{ " /img/portfolio/uiowabetas.jpg " | prepend: site.baseurl }}" alt="">
+                      </a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body">
+                This project was crafted for my fraternity at the University of Iowa.
+                <ul>
+                  <li>Site utilizes Bootstrap</li>
+                  <li>Responsive Design</li>
+                  <li>CloudFlare CDN for faster load times</li>
+                  <li>Pictures utilize Couldinary CDN for faster load times of site</li>
+                </ul>
+                Tell about the challenges faced and what you and your team did to solve it.
+              <br>
+              <br>
+              <p class="text-center"><b><a href="http://uiowabetas.com">Visit Site</a></b>
+              </p>
               </div>
             </div>
-            <!-- /.modal-content -->
           </div>
-          <!-- /.modal-dialog -->
         </div>
-        <!-- /.modal -->
 
-        <!-- PORTFOLIO IMAGE 2 -->
-        <div class="col-md-4 col-sm-6">
-          <div class="grid mask">
-            <figure>
-              <img class="img-responsive img-edit" src="{{ "/img/portfolio/folio02.jpg" | prepend: site.baseurl }}" alt="">
-              <figcaption>
-                <h5>UI DESIGN</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-              </figcaption>
-              <!-- /figcaption -->
-            </figure>
-            <!-- /figure -->
+        <div class="col-lg-4 col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-heading text-center" role="tab" id="headingTwo">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                LandrTech
+                 <br>
+                  <br>
+                  <img class="img-responsive img-edit" src="{{ "/img/portfolio/folio02.jpg" | prepend: site.baseurl }}" alt="">
+                </a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body">
+                In order to be eligible for membership, a collegiate student must be a full-time student at the institution of the collegiate entity where he is pursuing membership. Additionally, the interested gentleman must have at least a 2.50 cumulative Grade Point
+                Average (3.0 graduating high school GPA for first semester students).
+              </div>
+            </div>
           </div>
-          <!-- /grid-mask -->
         </div>
-        <!-- /col -->
 
-        <!-- PORTFOLIO IMAGE 3 -->
-        <div class="col-md-4 col-sm-6">
-          <div class="grid mask">
-            <figure>
-              <img class="img-responsive img-edit" src="{{ "/img/portfolio/folio03.jpg" | prepend: site.baseurl }}" alt="">
-              <figcaption>
-                <h5>ANDROID PAGE</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-              </figcaption>
-              <!-- /figcaption -->
-            </figure>
-            <!-- /figure -->
+        <div class="col-lg-4 col-lg-offset-0 col-md-offset-6 col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-heading text-center" role="tab" id="headingThree">
+              <h4 class="panel-title text-center">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      UIOWABETAS
+                      <br>
+                      <br>
+                      <img class="img-responsive img-edit" src="{{ "/img/portfolio/folio04.jpg" | prepend: site.baseurl }}" alt="">
+                    </a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body">
+                Sigma Lambda Beta is a social fraternity that promotes the awareness of the Latino culture as well all other cultures that make up the rich diversity found within society. Additionally, Sigma Lambda Beta believes in advancing young, collegiate men to
+                become better men. This organization prides itself in upholding Brotherhood, Scholarship, Community Service, and Cultural Awareness as its principles. Every member of the organization lives out these beliefs in their school work, job,
+                and community.
+              </div>
+            </div>
           </div>
-          <!-- /grid-mask -->
         </div>
-        <!-- /col -->
-
-        <!-- PORTFOLIO IMAGE 4 -->
-        <div class="col-md-4 col-sm-6">
-          <div class="grid mask">
-            <figure>
-              <img class="img-responsive img-edit" src="{{ "/img/portfolio/folio04.jpg" | prepend: site.baseurl }}" alt="">
-              <figcaption>
-                <h5>PROFILE</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-              </figcaption>
-              <!-- /figcaption -->
-            </figure>
-            <!-- /figure -->
-          </div>
-          <!-- /grid-mask -->
-        </div>
-        <!-- /col -->
-
-        <!-- PORTFOLIO IMAGE 5 -->
-        <div class="col-md-4 col-sm-6">
-          <div class="grid mask">
-            <figure>
-              <img class="img-responsive img-edit" src="{{ "/img/portfolio/folio05.jpg" | prepend: site.baseurl }}" alt="">
-              <figcaption>
-                <h5>TWITTER STATUS</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-              </figcaption>
-              <!-- /figcaption -->
-            </figure>
-            <!-- /figure -->
-          </div>
-          <!-- /grid-mask -->
-        </div>
-        <!-- /col -->
-
-        <!-- PORTFOLIO IMAGE 6 -->
-        <div class="col-md-4 col-sm-6">
-          <div class="grid mask">
-            <figure>
-              <img class="img-responsive img-edit" src="{{ "/img/portfolio/folio06.jpg" | prepend: site.baseurl }}" alt="">
-              <figcaption>
-                <h5>PHONE MOCKUP</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-              </figcaption>
-              <!-- /figcaption -->
-            </figure>
-            <!-- /figure -->
-          </div>
-          <!-- /grid-mask -->
-        </div>
-        <!-- /col -->
 
       </div>
-    </div>
+
     </div>
   </div>
 </div>

@@ -4,22 +4,40 @@ layout: default
 <div class="wow fadeInUp">
   <div class="box">
     <div class="container-fluid">
+
       <div class="row text-center">
         <div class="col-xs-12">
-        <h3>{{ page.title }}</h3>
-        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-        <hr class="star-primary">
+          <h3>{{ page.title }}</h3>
+          <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+          <hr class="star-primary">
+        </div>
       </div>
-    </div>
+
       <div class="row">
-        <div class="col-xs-12">
+
+        <div class="col-xs-12 col-md-9 col-lg-8">
+          <div class="boxblog">
             {{ content }}
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          
+
+        <div class="col-xs-12 col-md-3 col-lg-4 text-center">
+          {% assign tagStr = '' %}
+          {% capture url %}{{ site.url }}{{ page.url }}{% endcapture %}
+          {% if page.shortUrl != null %}
+            {% assign url = page.shortUrl %}
+            {% for tag in page.tags %}
+              {% capture tagStr %}{{ tagStr }},{{ tag }}{% endcapture %}
+            {% endfor %}
+          {% endif %}
+          <h3>Share This Post</h3>
+          <div>
+            <a class="shareicons" target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ url }}&via={{ site.twitter_username }}&hashtags={{ tagStr }}" title="Share this post on Twitter"><i id="twittericon" class="fa fa-twitter-square fa-3x"></i></a>
+            <a class="shareicons" target="_blank" href="https://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ url }}" title="Share this post on Facebook"><i id="facebookicon" class="fa fa-facebook-square fa-3x"></a>
+          </div>
         </div>
+
       </div>
+
     </div>
   </div>

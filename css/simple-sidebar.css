@@ -215,144 +215,28 @@ hr.star-primary:after {
   color: #4E4E4E;
   background-color: #2F2F2F;
 }
-/* ==========================================================================
-   Image Mask
-   ========================================================================== */
-
-.modalp {
-  font-family: "Lato", serif;
-  font-size: 16px;
-  color: #2f2f2f;
-}
-.grid figure {
-  position: inherit;
-}
-.grid figure img {
-  display: block;
-  position: relative;
-}
-.grid figcaption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 20px 0px;
-  color: #2f2f2f;
-  background: #FB8946;
-}
-.grid figcaption h5 {
-  margin: 0;
-  padding-top: 0px;
-  padding-left: 20px;
-  padding-bottom: 5px;
-  color: #fff;
-  font-weight: 700;
-  text-align: left;
-  letter-spacing: 2px;
-}
-.grid figcaption a:link {
-  padding: 5px 10px;
-  display: inline-block;
-  background: #2f2f2f;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 13px;
-  border: none;
-  outline: none;
-}
-.grid figcaption a:hover {
-  padding: 5px 10px;
-  display: inline-block;
-  background: #3868A5;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 13px;
-  border: none;
-  outline: none;
-}
-/* Caption Style */
-
-.mask figure {
-  overflow: hidden;
-}
-.mask figure img {
-  -webkit-transition: -webkit-transform 0.4s;
-  -moz-transition: -moz-transform 0.4s;
-  transition: transform 0.4s;
-}
-.no-touch .mask figure:hover img, .mask figure.cs-hover img {
-  -webkit-transform: translateY(-30px);
-  -moz-transform: translateY(-30px);
-  -ms-transform: translateY(-30px);
-  transform: translateY(-30px);
-}
-.mask figcaption {
-  height: 50px;
-  width: 100%;
-  top: auto;
-  bottom: 0;
-  opacity: 0;
-  -webkit-transform: translateY(100%);
-  -moz-transform: translateY(100%);
-  -ms-transform: translateY(100%);
-  transform: translateY(100%);
-  -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
-  -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
-  transition: transform 0.4s, opacity 0.1s 0.3s;
-}
-.no-touch .mask figure:hover figcaption, .mask figure.cs-hover figcaption {
-  opacity: 1;
-  -webkit-transform: translateY(0px);
-  -moz-transform: translateY(0px);
-  -ms-transform: translateY(0px);
-  transform: translateY(0px);
-  -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
-  -moz-transition: -moz-transform 0.4s, opacity 0.1s;
-  transition: transform 0.4s, opacity 0.1s;
-}
-.mask figcaption a {
-  position: absolute;
-  top: 10px;
-  bottom: 10px;
-  right: 30px;
-}
-.modal{
-  width: 600px
-  height:
-}
-.modal-header {
-  background: #FB8946;
-}
-.modal-header h4 {
-  color: white;
-}
-.modal-footer {
-  background: #2f2f2f;
-}
-.row-edit {
-  padding-bottom: 20px;
-}
-.img-edit {
-  vertical-align: middle;
-}
 .boxblog {
-  background-color: #4e4e4e;
   padding: 5px 10px 20px;
-  margin-bottom: 10px;
+  margin: 10px 0px 5px;
 }
 @media (min-width: 768px) {
   .boxblog {
-    background-color: #4e4e4e;
     padding: 5px 10px 20px 10px;
-    margin-bottom: 10px;
-  }
+    margin: 20px 0px 10px;
 
+  }
 }
 .boxblog h3 {
   color: #fff;
   font-family: "Roboto Slab", serif;
 }
-.boxblog p {
+.dateblog {
   color: #fff;
+  font-family: "Lato", serif;
+  font-size: 16px;
+}
+.boxblog p {
+  color: #aaa;
   font-family: "Lato", serif;
   font-size: 16px;
 }
@@ -365,35 +249,24 @@ hr.star-primary:after {
   text-align: center;
 }
 .boxblog hr.star-light {
-  border-color: #4E4E4E;
-}
-.boxblog hr.star-light:after {
-  color: #4E4E4E;
-  background-color: #4E4E4E;
-}
-.boxblog hr.star-primary {
   border-color: #2f2f2f;
 }
-.boxblog hr.star-primary:after {
+.boxblog hr.star-light:after {
   color: #2f2f2f;
-  background-color: #4E4E4E;
+  background-color: #2f2f2f;
+}
+.boxblog hr.star-primary {
+  border-color: #4E4E4E;
+}
+.boxblog hr.star-primary:after {
+  color: #4E4E4E;
+  background-color: #2f2f2f;
 }
 .bloglink {
   border-radius: 5px;
   color: #fff;
 }
 .bloglink:link {
-  padding: 5px 10px;
-  background: #FB8946;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 13px;
-  border: none;
-  outline: none;
-  text-decoration: none;
-  border-radius: 10px;
-}
-.bloglink:hover {
   padding: 5px 10px;
   background: #3868A5;
   color: #fff;
@@ -404,18 +277,26 @@ hr.star-primary:after {
   text-decoration: none;
   border-radius: 10px;
 }
+.bloglink:hover {
+  padding: 5px 10px;
+  background: #FB8946;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  border-radius: 10px;
+}
 .boxresume {
-  background-color: #4e4e4e;
-  padding: 5px 10px 20px;
-  margin-bottom: 10px;
+  padding: 5px 10px 20px 20px;
+  margin: 10px 0px 5px;
 }
 @media (min-width: 768px) {
   .boxresume {
-    background-color: #4e4e4e;
-    padding: 5px 20px 20px 20px;
-    margin-bottom: 10px;
+    padding: 5px 20px 20px 10px;
+    margin: 20px 0px 10px;
   }
-
 }
 .boxresume h5 {
   color: #fff;
@@ -437,25 +318,88 @@ hr.star-primary:after {
 .boxresume more {
   color: #aaa;
 }
-.page{
+hr.line {
+  width: 200px;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FB8946;
+  color: #FB8946;
+  border: 0 none;
+}
+@media (min-width: 768px) {
+  hr.line {
+    width: 100%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FB8946;
+    color: #FB8946;
+    border: 0 none;
+  }
+}
+.page {
   font-family: "Lato", serif;
   font-size: 15px;
   font-weight: bold;
 }
-.previous{
+.previous {
   color: #4e4e4e;
 }
-.page_number{
+.page_number {
   color: #fff;
 }
-.next{
+.next {
   color: #4e4e4e;
 }
-.page a{
+.page a {
   color: #FB8946;
   text-decoration: none;
 }
-.page a:hover{
+.page a:hover {
   color: #3868A5;
   text-decoration: none;
+}
+.panel-title {
+  background: #FB8946;
+  padding-top: 20px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.panel-title:hover {
+  background: #3868A5;
+  padding-top: 20px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.panel-title a:link {
+  text-decoration: none;
+  color: #fff;
+}
+.panel-title a:hover {
+  text-decoration: none;
+}
+.panel-body {
+  background-color: #2f2f2f;
+  color: #ddd;
+  outline: none;
+  border: none;
+}
+.panel-collapse, .panel, .panel-default {
+  border: none;
+}
+
+.shareicons {
+  padding: 0px 5px;
+}
+.shareicons:hover, .shareicons:active {
+  color: #FB8946;
+}
+.shareicons:link, .shareicons:visited {
+  color: #FB8946;
 }
