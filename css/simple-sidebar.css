@@ -315,6 +315,10 @@ hr.star-primary:after {
   bottom: 10px;
   right: 30px;
 }
+.modal{
+  width: 600px
+  height:
+}
 .modal-header {
   background: #FB8946;
 }
