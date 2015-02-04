@@ -407,3 +407,12 @@ hr.line {
 .shareicons:link, .shareicons:visited {
   color: #FB8946;
 }
+hr.sidebar {
+  width: 100%;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FB8946;
+  color: #FB8946;
+  border: 0 none;
+}
