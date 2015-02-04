@@ -70,28 +70,25 @@ html {
   color: #2F2F2F;
   text-decoration: none;
 }
-.sidebar-nav > .sidebar-brand {
+.sidebar-brand {
   background-color: #2f2f2f;
+  color: #fff;
   font-size: 36px;
-  padding: 0px 0px 10px;
+  padding: 5px 0px 10px;
+  margin: 10px 0px 30px;
+  text-decoration: none;
+  font-family: "Indie Flower", serif;
+}
+.sidebar-brand:hover {
+  color: #fff;
+  background-color: #FB8946;
+  font-size: 36px;
+  padding: 5px 0px 10px;
   margin: 10px 0px 30px;
   text-decoration: none;
 }
-.sidebar-nav > .sidebar-brand a {
+.sidebar-brand a, .sidebar-brand a:hover {
   color: #fff;
-  background-color: #2f2f2f;
-  font-family: "Indie Flower", serif;
-  font-weight: bold;
-  font-size: 36px;
-  margin: 0px 0px 30px;
-  text-decoration: none;
-}
-.sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
-  background-color: #2f2f2f;
-  background: none;
-  font-size: 36px;
-  margin: 0px 0px 30px;
   text-decoration: none;
 }
 @media (min-width: 768px) {
@@ -177,7 +174,8 @@ html {
 .box p {
   color: white;
   font-family: "Lato", serif;
-  font-size: 16px;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 .mt {
   margin-top: 40px;
@@ -419,11 +417,19 @@ hr.line {
   font-family: "Roboto Slab", serif;
   font-size: 13px;
   line-height: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0px 10px;
+}
+.thanks a:link{
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0px 10px;
 }
 .thanks a:hover{
   text-decoration: none;
+  color: #fff;
   color: #FB8946;
   font-family: "Roboto Slab", serif;
   font-size: 16px;
