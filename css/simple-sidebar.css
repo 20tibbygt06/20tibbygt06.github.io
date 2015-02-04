@@ -225,10 +225,9 @@ hr.star-primary:after {
   color: #2f2f2f;
 }
 .grid figure {
-  position: relative;
+  position: inherit;
 }
 .grid figure img {
-  width: 100%;
   display: block;
   position: relative;
 }
@@ -236,7 +235,7 @@ hr.star-primary:after {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 20px;
+  padding: 20px 0px;
   color: #2f2f2f;
   background: #FB8946;
 }
@@ -251,9 +250,7 @@ hr.star-primary:after {
   letter-spacing: 2px;
 }
 .grid figcaption a:link {
-  text-align: left;
   padding: 5px 10px;
-  margin-left: 20px;
   display: inline-block;
   background: #2f2f2f;
   color: #fff;
@@ -263,9 +260,7 @@ hr.star-primary:after {
   outline: none;
 }
 .grid figcaption a:hover {
-  text-align: left;
   padding: 5px 10px;
-  margin-left: 20px;
   display: inline-block;
   background: #3868A5;
   color: #fff;
