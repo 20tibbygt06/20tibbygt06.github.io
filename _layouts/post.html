@@ -19,9 +19,18 @@ layout: default
           <div class="boxblog">
             {{ content }}
           </div>
+          <div class="text-center">
+            {% if page.previous %}
+                  <a rel="prev" href="{{ page.previous.url }}">&larr; Older</a>
+              {% endif %}
+              {% if page.next %}
+                  <a rel="next" href="{{ page.next.url }}">Newer &rarr;</a>
+              {% endif %}
+        </div>
         </div>
 
         <div class="col-xs-12 col-md-3 col-lg-4 text-center">
+          <div>
           {% assign tagStr = '' %}
           {% capture url %}{{ site.url }}{{ page.url }}{% endcapture %}
           {% if page.shortUrl != null %}
@@ -31,9 +40,8 @@ layout: default
             {% endfor %}
           {% endif %}
           <h3>Share This Post</h3>
-          <div>
-            <a class="shareicons" target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ url }}&via={{ site.twitter_username }}&hashtags={{ tagStr }}" title="Share this post on Twitter"><i id="twittericon" class="fa fa-twitter-square fa-3x"></i></a>
-            <a class="shareicons" target="_blank" href="https://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ url }}" title="Share this post on Facebook"><i id="facebookicon" class="fa fa-facebook-square fa-3x"></a>
+            <a class="shareicons" target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ url }}&via={{ site.twitter_username }}&hashtags={{ tagStr }}"><i id="twittericon" class="fa fa-twitter-square fa-3x"></i></a>
+            <a class="shareicons" target="_blank" href="https://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ url }}"><i id="facebookicon" class="fa fa-facebook-square fa-3x"></i></a>
           </div>
         </div>
 

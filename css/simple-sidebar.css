@@ -230,6 +230,10 @@ hr.star-primary:after {
   color: #fff;
   font-family: "Roboto Slab", serif;
 }
+.boxblog h4 {
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+}
 .dateblog {
   color: #fff;
   font-family: "Lato", serif;
