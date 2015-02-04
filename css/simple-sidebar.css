@@ -58,7 +58,6 @@ html {
 }
 .sidebar-nav li {
   line-height: 30px;
-  margin-left: 57px;
 }
 .links a {
   display: block;
@@ -72,7 +71,7 @@ html {
   text-decoration: none;
 }
 .sidebar-nav > .sidebar-brand {
-  background-color: #FB8946;
+  background-color: #2f2f2f;
   font-size: 36px;
   padding: 0px 0px 10px;
   margin: 10px 0px 30px;
@@ -80,7 +79,7 @@ html {
 }
 .sidebar-nav > .sidebar-brand a {
   color: #fff;
-  background-color: #FB8946;
+  background-color: #2f2f2f;
   font-family: "Indie Flower", serif;
   font-weight: bold;
   font-size: 36px;
@@ -89,7 +88,7 @@ html {
 }
 .sidebar-nav > .sidebar-brand a:hover {
   color: #fff;
-  background-color: #FB8946;
+  background-color: #2f2f2f;
   background: none;
   font-size: 36px;
   margin: 0px 0px 30px;
@@ -416,18 +415,20 @@ hr.sidebar {
   border: 0 none;
 }
 .blackfont {
-  padding: 10px 0px;
+  padding: 2px 0px 5px;
   color: #fff;
-  background: #2f2f2f;
+  background: #FB8946;
   font-family: "Lato", serif;
   font-size: 20px;
 }
 .thanks a{
-  display:block;
   color: #fff;
   text-decoration: none;
   font-family: "Roboto Slab", serif;
   font-size: 13px;
+  line-height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .thanks a:hover{
   text-decoration: none;
