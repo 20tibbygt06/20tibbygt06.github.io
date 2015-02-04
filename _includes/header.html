@@ -3,7 +3,7 @@
   <div id="sidebar-wrapper">
     <ul class="sidebar-nav">
       <div class="text-center">
-        <img src="{{ "/img/photo.jpg" | prepend: site.baseurl }}" alt="Responsive image" id="mypic" class="img-circle">
+        <img src="{{ " /img/photo.jpg " | prepend: site.baseurl }}" alt="Responsive image" id="mypic" class="img-circle">
       </div>
       <div class="sidebar-brand text-center">
         <a href="{{ site.baseurl }}/">{{ site.title }}</a>
@@ -14,27 +14,17 @@
         <a href="/blog">Blog</a>
       </li>
       <br>
+      <div class="emaillink text-center">
+        <a href="mailto:luis.e.aguilar@outlook.com">Email Me</a>
+      </div>
       <div class="text-center">
         <p>
           {% if site.twitter_username %}
-          <a class="iconformatting" target="_blank" href="https://www.twitter.com/{{ site.twitter_username }}"><i id="twittericon" class="fa fa-twitter-square fa-3x"></i></a>
-          {% endif%}
-
-          {% if site.facebook_username %}
-          <a class="iconformatting" target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}"><i id="facebookicon" class="fa fa-facebook-square fa-3x"></i></a>
-          {% endif%}
-
-          {% if site.github_username %}
-          <a class="iconformatting" target="_blank" href="https://www.github.com/{{ site.github_username }}"><i id="githubicon" class="fa fa-github-square fa-3x"></i></a>
-          {% endif %}
-
-          {% if site.lindekin_username %}
-          <a class="iconformatting" target="_blank" href="https://www.linkedin.com/{{ site.linkedin_username }}"><i id="linkedinicon" class="fa fa-linkedin-square fa-3x"></i></a>
-          {% endif %}
-
-          {% if site.google_plus_username %}
-          <a class="iconformatting" target="_blank" href="https://www.gooleplus.com/{{ site.google_plus_username}}"><i class="fa fa-google-plus-square fa-3x"></i></a>
-          {% endif %}
+          <a class="iconformatting" target="_blank" href="https://www.twitter.com/{{ site.twitter_username }}"><i id="twittericon" class="fa fa-twitter-square fa-3x"></i></a> {% endif%} {% if site.facebook_username %}
+          <a class="iconformatting" target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}"><i id="facebookicon" class="fa fa-facebook-square fa-3x"></i></a> {% endif%} {% if site.github_username %}
+          <a class="iconformatting" target="_blank" href="https://www.github.com/{{ site.github_username }}"><i id="githubicon" class="fa fa-github-square fa-3x"></i></a> {% endif %} {% if site.lindekin_username %}
+          <a class="iconformatting" target="_blank" href="https://www.linkedin.com/{{ site.linkedin_username }}"><i id="linkedinicon" class="fa fa-linkedin-square fa-3x"></i></a> {% endif %} {% if site.google_plus_username %}
+          <a class="iconformatting" target="_blank" href="https://www.gooleplus.com/{{ site.google_plus_username}}"><i class="fa fa-google-plus-square fa-3x"></i></a> {% endif %}
         </p>
       </div>
       <div class="text-center">
