@@ -1,0 +1,13 @@
+---
+title: Here We Go
+permalink: /blog/here-we-go
+author: Luis Aguilar
+layout: post
+date: "2015-02-04"
+tags:
+- Discipline
+- Dare
+- Achieve
+shortUrl: http://goo.gl/66x53f
+---
+So here we are at the launch of my portfolio! Here we go!
