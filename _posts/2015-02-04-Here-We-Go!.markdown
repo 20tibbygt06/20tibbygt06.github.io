@@ -10,4 +10,4 @@ tags:
 - Achieve
 shortUrl: http://goo.gl/66x53f
 ---
-So here we are at the launch of my portfolio! Here we go!
+Here we go!
