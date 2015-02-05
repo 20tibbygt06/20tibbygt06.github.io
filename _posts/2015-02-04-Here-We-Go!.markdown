@@ -8,6 +8,6 @@ tags:
 - Discipline
 - Dare
 - Achieve
-shortUrl: http://goo.gl/66x53f
+shortUrl: http://goo.gl/ihmM2A
 ---
 Here we go!
