@@ -1,8 +1,4 @@
 ---
-published: false
----
-
----
 Title: Wanted! Keywords: Drupal & WordPress
 ---
 
