@@ -1,38 +1,29 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, user-scalable=no">
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <!-- Facebook -->
-  <meta property="og:site_name" content="Luis E. Aguilar">
-  <meta property="og:title" content="Luis E. Aguilar | Web Developer">
-  <meta property="og:url" content="http://luiseaguilar.com/">
-  <meta property="og:image" content="http://luiseaguilar.com/img/photo.jpg">
-  <meta property="og:description" content="Welcome, My name is Luis E. Aguilar and I am a web developer. Take a look at my portfolio.">
+<!-- Facebook -->
+<meta property="og:site_name" content="Luis E. Aguilar">
+<meta property="og:title" content="Luis E. Aguilar | Web Developer">
+<meta property="og:url" content="http://luiseaguilar.com/">
+<meta property="og:image" content="http://luiseaguilar.com/img/photo.jpg">
+<meta property="og:description" content="Welcome, My name is Luis E. Aguilar and I am a web developer. Take a look at my portfolio.">
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@20tibbygt06">
-  <meta name="twitter:site" content="http://luiseaguilar.com/">
-  <meta name="twitter:title" content="Luis E. Aguilar | Web Developer">
-  <meta name="twitter:description" content="Welcome, My name is Luis E. Aguilar and I am a web developer. Take a look at my portfolio.">
-  <meta name="twitter:image:src" content="http://luiseaguilar.com/img/photo.jpg">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@20tibbygt06">
+<meta name="twitter:site" content="http://luiseaguilar.com/">
+<meta name="twitter:title" content="Luis E. Aguilar | Web Developer">
+<meta name="twitter:description" content="Welcome, My name is Luis E. Aguilar and I am a web developer. Take a look at my portfolio.">
+<meta name="twitter:image:src" content="http://luiseaguilar.com/img/photo.jpg">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | Web Developer</title>
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | Web Developer</title>
 
-  <link rel="stylesheet" href="{{ "/css/simple-sidebar.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/fontawesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/animate.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Indie+Flower">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.baseurl | prepend: site.url }}" />
-
-  <script type="text/javascript" src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/js/chart.js " | prepend: site.baseurl }}"></script>
-  <script src="{{ "/js/modernizr.custom.js " | prepend: site.baseurl }}"></script>
+<link rel="stylesheet" href="{{ "assets/css/w3.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "assets/css/main.css" | prepend: site.baseurl }}">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
